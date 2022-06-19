@@ -116,7 +116,7 @@ const [chiama, setChiama]=useState(false);
         {/* footer */}
         <div className="footer">
             <span className='foot'>
-              Disponibile dal lunedi al venerdi
+              Disponibile dal lunedì al venerdì
             </span>
             <span className='foot'>
               dalle 9 alle 18
