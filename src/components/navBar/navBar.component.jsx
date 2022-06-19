@@ -39,7 +39,7 @@ const Navbar = ({ linkAttuale }) => {
     const [isClicked, setClick] = useState(false)
     const [isMenuIconClicked, setIsMenuIconClicked] = useState(false)
 
-    return (
+    return (  
         <div className={`
             navbar-container
             ${isMenuIconClicked ? 'vertical' : null}
