@@ -1,5 +1,21 @@
 .chi-siamo-page {
-    background: linear-gradient(45deg,cyan, blue);
+    background: linear-gradient(-45deg, #2128ab, #30bada, #00f3ae);
+    background-size: 400% 400%;
+    animation: gradient 3s ease infinite;
+    padding-top: 100px;
+
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+    
 
     .titolo {
         position: relative;
@@ -44,11 +60,11 @@
     }
 
     .tizio-container {
-        width: 40%;
+        width: 70%;
         margin: 0 auto;
-        padding-bottom: 30px;
         display: flex;
         align-items: center;
+        padding: 50px 0;
         
         .foto {
             display: flex;

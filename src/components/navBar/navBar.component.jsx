@@ -18,8 +18,8 @@ const elementiNavBar = [
         link: '/servizi'
     },
     {
-        nome: 'IMPRESE',
-        link: '/imprese'
+        nome: 'LAVORA CON NOI',
+        link: '/lavora-con-noi'
     },
     {
         nome: 'DOVE SIAMO',

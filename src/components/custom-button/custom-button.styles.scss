@@ -1,0 +1,22 @@
+.custom-button {
+    background-color: #2596be;
+    height: 70px;
+    border: none;
+    border: 1px solid transparent;
+    transition: 0.4s ease-in-out;
+
+    &:hover {
+        cursor: pointer;
+        background-color: #fff;
+        border-color: #2596be;
+
+        span {
+            color: #2596be;
+        }
+    }
+    
+    span {
+        color: #fff;
+        font-size: 24px;
+    }
+}

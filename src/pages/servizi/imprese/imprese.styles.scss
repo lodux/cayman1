@@ -1,0 +1,181 @@
+.imprese-page {
+
+    .immagine-sfondo {
+        background-image: url('https://www.avvangelogreco.it/wp-content/uploads/2020/09/angelo_3.jpg');
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .titolo, .sottotitolo {
+            color: #fff;
+        }
+
+        .titolo {
+            font-size: 40px;
+            font-weight: bolder;
+        }
+
+        .sottotitolo {
+            margin-top: 30px;
+            font-size: 18px;
+            max-width: 670px;
+            text-align: center;
+        }
+    }
+
+    .menu-titolo {
+        font-size: 40px;
+        display: block;
+        margin: 55px 80px;
+        font-weight: 600;
+    }
+
+    .menu {
+        margin-left: 80px;
+        display: flex;
+
+        .menu-item {
+            font-size: 25px;
+            margin: 10px 80px;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+
+    .servizio-container {
+
+        .servizio-selezionato {
+            display: flex;
+            justify-content: center;
+            margin: 50px 0;
+            width: 100%;
+
+            .wrapper {
+                display: block;
+                position: relative;
+                width: 45%;
+
+                .parte-fissa {                
+                    position: -webkit-sticky;
+                    position: sticky;
+                    top: 20px;
+                    display: flex;
+                    flex-direction: column;
+                    margin-right: 70px;
+        
+                    .titolo-servizio {
+                        color: darkgray;
+                        font-size: 35px;
+                    }
+        
+                    .desc {
+                        font-size: 20px;
+                        margin-top: 20px;
+                        width: 90%;
+                    }
+                }                
+            }
+    
+            .card-container {
+                display: flex;
+                flex-direction: column;
+                width: 40%;
+    
+                .card {
+                    display: flex;
+                    width: 100%;
+                    margin-bottom: 100px;
+                    box-shadow: 0 3px 6px #00000029;
+
+                    .immagine {
+                        background: url('https://i2.wp.com/www.thewisemagazine.it/wp-content/uploads/2021/07/greco1-Copia.jpg?ssl=1');
+                        background-position: center;
+                        background-size: cover;
+                        width: 80%;
+                        height: 100%;
+                    }
+
+                    .descrizione-servizio {
+                        display: flex;
+                        flex-direction: column;
+
+                        .titolo-desc, .desc {
+                            margin: 10px;
+                            margin-left: 30px;            
+                        }
+
+                        .titolo-desc {
+                            font-weight: bold;
+                            font-size: 35px;
+                        }
+
+                        .desc {
+                            max-width: 85%;
+                        }
+
+                        .icon-wrapper {
+                            display: flex;
+                            justify-content: space-evenly;
+                            border-bottom: 1px solid #000;
+                            padding-bottom: 10px;
+                            margin: 0 10px;
+
+                            div {
+                                display: flex;
+                                align-items: center;
+
+                                img {
+                                    width: 40px;
+                                    height: auto;
+                                }
+
+                                span {
+                                    font-size: 15px;
+                                    margin-left: 10px;
+                                    align-self: center;
+                                }
+                            }
+                        }
+
+                        .dettagli-wrapper {
+                            display: grid;
+                            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+                            margin: 20px;
+
+                            .dettagli {
+                                display: flex;
+                                flex-direction: column;
+                                margin: 15px 0;
+
+                                .prezzo {
+                                    color: #2596be;
+                                    font-weight: bolder;
+                                }
+                            }
+                        }
+
+                        .prezzo-annuo {
+                            display: flex;
+                            flex-direction: column;
+                            margin: 20px;
+
+                            .prezzo {
+                                color: #2596be;
+                                font-weight: bolder;                                
+                            }
+                        }
+
+                        button {
+                            width: 90%;
+                            margin: 20px auto;;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

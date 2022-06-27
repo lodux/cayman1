@@ -8,14 +8,14 @@ const frasi = [
 
 const personale = [
   {
-    nome: 'Diprè',
-    img: 'https://lastfm.freetls.fastly.net/i/u/avatar170s/3651ffd909be05b46c1960604cbe391a',
-    citazione: 'Do you know who I am?'
+    nome: 'Nome',
+    img: 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png',
+    citazione: 'Breve descrizione'
   },
   {
-    nome: 'Puma',
-    img: 'https://i.ytimg.com/vi/WPe3GhiZXR4/hqdefault.jpg',
-    citazione: 'Porcoddio Diprè Diprè paura Mossa se voglio'
+    nome: 'Nome',
+    img: 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png',
+    citazione: 'Breve descrizione'
   }
 ]
 

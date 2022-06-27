@@ -1,7 +1,7 @@
 .container-servizi {
-    margin: 0 50px;
+    margin: 50px;
+    margin-top: 150px;
     display: flex;
-    margin-top: 50px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     justify-items: center;
@@ -20,7 +20,7 @@
             }
 
             .riga-blu {
-                box-shadow: inset 540px 0 0 0 #2FA7CF;
+                box-shadow: inset 550px 0 0 0 #2FA7CF;
                 transition: 0.5s ease-in-out;
 
                 span {
