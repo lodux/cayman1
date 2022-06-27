@@ -54,12 +54,12 @@ export default function  DovesiamoPage() {
            </div>
            <div className='city'>
               <h4 className='cityname'>Balestrate</h4>
-              <Link className="link" to="/mappage/vmdp">
+              <a className="link" href="/mappage/vmdp">
                 <span className='adress'>
                Via Madonna Del Ponte 38
                  <i className='fa fa-arrow-right' /> 
                 </span>
-              </Link>
+              </a>
               
            </div>
 
@@ -91,7 +91,6 @@ export default function  DovesiamoPage() {
                 <i className='fa fa-arrow-right' /> 
                 </span>
               </Link>
-          
            </div>
            <div className='city'>
               <h4 className='cityname'>Alcamo</h4>

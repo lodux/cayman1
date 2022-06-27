@@ -166,7 +166,7 @@ $background: rgba($color: $colore-sfondo, $alpha: 0.2);
 
     &.nascosta {
         background-color: transparent;   
-
+        display: none;
         .container-laterale {
             display: none;
         }         
