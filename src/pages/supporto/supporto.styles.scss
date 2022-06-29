@@ -1,0 +1,519 @@
+.spcont {
+    padding-top: 90px;
+  
+}
+
+.spbanner {
+    width: 100%;
+    height: 300px;
+    background-color: #2cde;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .spbannerfrase {
+        font-weight: 500;
+        font-size: 49px;
+        color: white;
+
+    }
+}
+
+
+.scContainer {
+    display: flex;
+    flex-direction: column;
+   
+    height: auto;
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+    z-index: 1;
+    margin-left: 7%;
+    padding-top: 25px;
+}
+
+.sceglifrase{
+    color: #2cbade;
+}
+
+.scsupportoContainer {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+/* logo telefono */
+.scfa {
+    color: #2cbade;
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 25px;
+}
+
+.scfa-whatsapp {
+    align-items: center;
+}
+
+.scpiii{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.scoption1 {
+    margin-top: 20px;
+    width: 80%;
+    height: 90px;
+    border-left: solid 4px #2cbade;
+    margin-bottom: 30px;
+    padding: 20px 15px 10px 20px;
+    cursor: pointer;
+    box-shadow: 0 5px 15px #0000001a;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.scoption2scelta {
+    width:80%;
+    height: 90px;
+    border-left: solid 4px #4c8b0d;
+    margin-bottom: 30px;
+    padding: 20px 15px 10px 20px;
+    cursor: pointer;
+    box-shadow: 0 5px 15px #0000001a;
+    text-align: center;
+}
+
+/* raccoglie telefono e numero verde */
+.scps {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.scnverde {
+    background-color: #2cbade;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin-top: 0;
+    height: 45px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.scchat {
+    background-color: rgb(0, 255, 0);
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin-top: 0;
+    height: 45px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.scoption2 {
+    width: 80%;
+    height: 90px;
+    border-left: solid 4px rgb(0, 255, 0);
+    padding: 20px 15px 10px 20px;
+    cursor: pointer;
+    box-shadow: 0 5px 15px #0000001a;
+    text-align: center;
+    margin-bottom: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.scnum{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.scscelta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+
+}
+
+
+.scnumber {
+    color: black;
+    text-decoration: none;
+}
+
+.scnumber:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+.scpartealta {
+    width: 100%;
+    display: flex;
+    border-bottom: rgb(170, 169, 169) 1px solid;
+    height: 70px;
+    align-items: center;
+
+
+}
+
+.scsc {
+    width: 60%;
+    color: #2cbade;
+    display: flex;
+    margin-left: 8px;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    background-color: rgba(44, 186, 222, 014);
+
+}
+
+.sccollegamento {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.scmeno {
+    width: 25px;
+    height: 4px;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-right: 10px;
+    background-color: #2cbade;
+    cursor: pointer;
+}
+
+.scscegliscritta {
+    color: #2cbade;
+}
+
+.scpi {
+    display: flex;
+    justify-content: space-between;
+}
+.scpii{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.scfa-angle-right {
+    margin-left: 50px;
+    font-weight: bold;
+}
+
+.scavviachat {
+    width: 208px;
+    display: flex;
+
+}
+
+.scavviachat:hover {
+    text-decoration: underline;
+}
+
+.scfooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: large;
+    color: rgb(117, 117, 117);
+    height: 100%;
+    margin-top: 15px;
+    margin-bottom: 40px;
+
+}
+
+.scfattichiamare {
+    background-color: #4c8b0d;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin-top: 0;
+    height: 45px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+//fa icon
+
+.scfa-arrow-left {
+    display: flex;
+    margin-left: 8px;
+    align-items: center;
+}
+
+.scfa-arrow-left:hover {
+    cursor: pointer;
+}
+
+
+/* sezione fatti chiamare */
+
+.sccontainerfattichiamare {
+    display: flex;
+    flex-direction: column;
+    width: 86%;
+    margin-left: 7%;
+
+}
+
+.scinp {
+    transition: all 1s linear;
+    font-family: RoobertLight, Calibri, Myriad, Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 1;
+    background: 0;
+    border: 2px solid rgba(0, 0, 0, .15);
+    color: #000;
+    display: inline-block;
+    margin-top: 17px;
+    min-width: 160px;
+    outline: 0;
+    padding: 9px 9px 7px;
+    width: 90%;
+    -moz-appearance: textfield;
+    -webkit-appearance: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.scinputchiama {
+    margin-bottom: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.scbottonefattichiamare {
+    font-family: RoobertBold, Calibri, Myriad, Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 17px;
+    letter-spacing: 2px;
+    line-height: 1.33333;
+    text-transform: uppercase;
+    margin-right: 0;
+    margin-bottom: 20px;
+    color: #2cbade;
+    font-size: larger;
+}
+
+.sctastofatti {
+    display: flex;
+    cursor: pointer;
+
+}
+
+.sclinea {
+    margin-top: 19px;
+    width: 95%;
+    height: 1px;
+    background-color: grey;
+}
+
+.scnormativa {
+    font-size: 13px;
+
+}
+
+.scfrases {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+.scfascia {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+    
+    margin-bottom: 9px;
+
+    .scfasciao {
+        width: 30%;
+        font-size: 16px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        
+    }
+
+    .scinpora {
+        width: 30%;
+        transition: all 1s linear;
+        font-family: RoobertLight, Calibri, Myriad, Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 15px;
+        letter-spacing: 0;
+        line-height: 1;
+        background: 0;
+        border: 2px solid rgba(0, 0, 0, .15);
+        color: #000;
+        display: inline-block;
+
+
+        outline: 0;
+        padding: 9px 9px 7px;
+
+        -moz-appearance: textfield;
+        -webkit-appearance: none;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    .scinpgiorno {
+        width: 30%;
+        transition: all 1s linear;
+        font-family: RoobertLight, Calibri, Myriad, Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 15px;
+        letter-spacing: 0;
+        line-height: 1;
+        background: 0;
+        border: 2px solid rgba(0, 0, 0, .15);
+        color: #000;
+        display: inline-block;
+
+
+        outline: 0;
+        padding: 9px 9px 7px;
+
+        -moz-appearance: textfield;
+        -webkit-appearance: none;
+        border-radius: 0;
+        box-shadow: none;
+    }
+}
+
+//ultima pagina 
+
+.sccentro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   
+    margin-left: 10%;
+    margin-right: 10%;
+
+    .scmess {}
+
+    .scmessca {
+        margin-top: 5%;
+    }
+}
+
+.scchiudibutt {
+    margin-top: 3%;
+    width: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #2cbade;
+    color: white;
+    border: none;
+    height: 37px;
+    font-family: 'Poppins';
+    font-size: larger;
+}
+
+.scchiudibutt:hover {
+    cursor: pointer;
+}
+
+//sedi
+
+.sediCont{
+    margin-bottom: 40px;
+    margin-left: 7%;
+    margin-top: 4%;
+    .sediTit{
+    margin-bottom: 1%;
+    color: #2cbade;
+    }
+
+
+    button{
+    //font-family: "RoobertBold",Calibri,Myriad,Tahoma,Geneva,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 650;
+    font-style: normal;
+    transition: all 100ms linear;
+    display: inline-block;
+    min-width: 160px;
+    padding: 17px 40px 17px;
+    text-align: center;
+    text-transform: uppercase;
+    border-width: 2px;
+    border-style: solid;
+    font-size: 16px;
+    letter-spacing: .6px;
+    line-height: 1.33333;
+    border-color: #fff;
+    color: #fff;
+    transition: background-color 100ms linear;
+
+    }
+    button:hover{
+        background-color: #2cbade;
+        cursor: pointer;
+        color: white;
+    }
+
+    
+}

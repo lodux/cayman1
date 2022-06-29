@@ -1,0 +1,43 @@
+.lavora-con-noi {
+    background-color: #2FA7CF;
+
+    .background-img {
+        background: url('https://besthqwallpapers.com/Uploads/29-7-2020/138537/thumb2-teamwork-business-people-team-at-the-table-plan-concepts-teamwork-concepts.jpg');
+        height: 600px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        span {
+            color: #fff;
+            font-weight: bold;
+            font-size: 40px;
+        }
+    }
+
+    .cv-container {
+        display: flex;
+        align-items: center;
+        padding: 40px;
+
+        .intro {
+            display: block;
+            font-size: 25px;
+            color: #fff;
+            max-width: 80%;
+        }   
+        
+        input[type="file"] {
+            display: none;
+        }
+
+        label {
+            color: #fff;
+            background-color: #046A8C;
+            padding: 50px;
+            border-radius: 20px;
+        }
+    }
+}

@@ -11,37 +11,38 @@ $colore-tosto: rgb(60, 207, 236);
     background-color:$colore-tosto;
     border: none;
     color: white;
+    z-index: 1000;
 
     &:hover {
         cursor: pointer;
     }
 
     .icona-messaggio {
-        width: 60px;
+        width: 55px;
         position: absolute;
         display: inline-block;
-        top: -40px;
-        right: -35px;
+        top: -63px;
+        right: -40px;
         background-color: $colore-tosto;
         border-radius: 50%;
         padding: 10px;
 
         img {
-            width: 70%;
+            margin-top: 5px;
+            width: 100%;
             height: auto;
         }
     }
 }
    
-       
-        
-    
 .serviziocontainer{
     position: fixed;
     bottom: -30px;
     left: 70%;
     background-color: white;
     z-index: 9999;
- 
-
+    box-shadow: 0 10px 25px #bbbbbbbb;
+    animation-duration: 2s;   
+    animation: bounceInUp; // referring directly to the animation's @keyframe declaration */
+    animation-duration: 0.8s; /* don't forget to set a duration! */
 }

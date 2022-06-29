@@ -1,0 +1,122 @@
+.pagina-dei-servizi {
+    padding-top: 100px;
+
+    .servizio {
+        display: flex;
+        position: relative;
+        margin-bottom: 100px;
+
+        .sticky-div {
+            position: relative;
+            width: 55%;
+            display: block;
+            margin: 0 50px;
+
+            .componente-fisso {
+                position: -webkit-sticky;
+                position: sticky;
+                top: 40px;
+                display: flex;
+                flex-direction: column;
+                width: auto;
+        
+                .titolo {
+                    font-size: 20px;
+                    color: #2596be;
+                    font-size: 30px;
+                    margin: 60px 0 0 40px;
+                }
+            
+                .testo-con-barra {
+                    margin: 30px 0 0 60px;
+                    width: auto;
+        
+                    span {
+                        font-size: 40px;
+                        font-weight: bolder;        
+                    }
+        
+                    .barra {
+                        height: 20px;
+                        width: 97%;
+                        border-radius: 0 25px 25px 0;
+                    }
+                } 
+        
+                .desc, a {
+                    margin-left: 60px;
+                    font-size: 21px;
+                }
+        
+                a {
+                    color: #2596be;
+                    margin: 10px 0 0 60px;
+                }
+            }
+        }  
+        
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+            width: 30%;
+            margin-left: 50px;
+
+            .prodotto {
+                display: flex;
+                flex-direction: column;
+                margin-top: 70px;
+                box-shadow: 0 3px 6px #00000029;
+
+                .immagine-wrapper {
+                    background-color: rgba(#2596be, 0.2);
+                    padding: 40px;
+
+                    img {
+                        width: 100%;
+                        height: auto;
+
+                        &:hover {
+                            cursor: pointer;
+                        }
+                    }
+                }
+
+                span {
+                    padding: 0 10px;
+                }
+
+                .titolo {
+                    font-weight: bolder;
+                    font-size: 35px;
+                }
+
+                .desc {
+                    font-size: 25px;
+                    color: #888888;
+                }
+
+                .sottotitolo {
+                    color: rgba($color: #2596be, $alpha: 0.8);
+                    font-style: italic;
+                }
+
+                .prezzo-wrapper {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    button {
+                        margin-left: 20px;
+                    }
+
+                    .prezzo {
+                        margin: 20px;
+                        margin-left: auto;
+                        font-size: 50px;
+                        color: #2596be;
+                    }
+                }
+            }             
+        }       
+    }
+}

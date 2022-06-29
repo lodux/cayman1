@@ -1,13 +1,6 @@
-import { render } from '@testing-library/react';
-import React, { useEffect, useState } from 'react'
-import {Link} from 'react-router-dom';
-
-
-
+import { Link } from 'react-router-dom';
 
 import './dovesiamo.styles.scss';
-
-
 
 export default function  DovesiamoPage() {
 

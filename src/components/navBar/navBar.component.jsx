@@ -1,7 +1,7 @@
 import { Fragment, useState } from 'react'
 import { Link } from 'react-router-dom'
 
-import './navBar.styles.scss'
+import './navBarr.styles.scss';
 
 import menu from './menu.svg'
 const LOGO_LINK = 'https://www.caymangroup.it/wp-content/uploads/2021/03/logo_caygroup_trasp.png'
@@ -18,8 +18,8 @@ const elementiNavBar = [
         link: '/servizi'
     },
     {
-        nome: 'IMPRESE',
-        link: '/imprese'
+        nome: 'LAVORA CON NOI',
+        link: '/lavora-con-noi'
     },
     {
         nome: 'DOVE SIAMO',

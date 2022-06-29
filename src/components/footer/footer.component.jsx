@@ -12,7 +12,7 @@ const Footer = () => {
             I Negozi SEP "Spazio Enel Partner" sono elencati nella sezione "dove siamo" del sito.</li>
   	 			</ul>
   	 		</div>
-  	 		<div class="col">
+  	 		<div className="col">
   	 			<h4>Sede principale</h4>
   	 			<ul>
   	 				<li className='spancol'>
@@ -22,13 +22,13 @@ const Footer = () => {
          
   	 			</ul>
   	 		</div>
-  	 		<div class="col">
+  	 		<div className="col">
   	 			<h4>follow us</h4>
-  	 			<div class="social-links">
-  	 				<a href="https://www.facebook.com/caymangroupsrls/"><i class="fab fa-facebook"></i></a>
-  	 				<a href="https://www.tiktok.com/@caymangroupsrl?is_from_webapp=1&sender_device=pc"><i class="fab fa-tiktok"></i></a>
-  	 				<a href="#"><i class="fab fa-instagram"></i></a>
-  	 				<a href="#"><i class="fab fa-linkedin-in"></i></a>
+  	 			<div className="social-links">
+  	 				<a href="https://www.facebook.com/caymangroupsrls/"><i className="fab fa-facebook"></i></a>
+  	 				<a href="https://www.tiktok.com/@caymangroupsrl?is_from_webapp=1&sender_device=pc"><i className="fab fa-tiktok"></i></a>
+  	 				<a href="#"><i className="fab fa-instagram"></i></a>
+  	 				<a href="#"><i className="fab fa-linkedin-in"></i></a>
   	 			</div>
        </div>
       </div>

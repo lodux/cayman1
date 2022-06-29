@@ -42,11 +42,10 @@ export default function MapPage() {
     case "vmdr":
       setDati(dati[9]);
     break;
-    
+    default:
+      return
    }
-  
-
-  },[])
+  },[via])
 
   return (
     
@@ -103,9 +102,10 @@ export default function MapPage() {
       </div>
       <div className="map">
       <iframe 
-         src={data.map}
+         title='mappa'
+         src={data.mappa}
          width="600" 
-         height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+         height="450" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"
          className='mappa'>
          </iframe>
       </div>

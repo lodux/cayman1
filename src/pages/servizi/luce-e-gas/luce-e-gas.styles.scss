@@ -45,12 +45,12 @@
         
                 .icone {
                     display: flex;
-                    margin-left: 40px;
+                    margin-left: 20px;
         
                     img {
-                        width: 50px;
+                        width: 70px;
                         height: auto;
-                        margin: 20px;
+                        margin: 20px 50px;
                     }
                 }
         
@@ -101,10 +101,18 @@
                         margin-top: 20px;
         
                         img {
-                            width: 60px;
-                            height: 60px;
+                            width: 80px;
+                            height: auto;
                             margin-right: 10px;
                         }
+
+                        &.stella {
+
+                            img {
+                                width: 70px;
+                                margin-right: 20px;
+                            }
+                        }                        
         
                         span {
                             font-size: 25px;
@@ -137,7 +145,7 @@
                 .immagine-annuncio {
                     width: 45%;
                     height: auto;
-                    background: linear-gradient(rgba(#2596be, 0.3), transparent), url('https://giff.to/cache/0/ZestyDisastrousBluetickcoonhound.jpg');
+                    background: linear-gradient(rgba(#2596be, 0.3), transparent), url('https://images2.corriereobjects.it/methode_image/2020/05/19/Economia/Foto%20Economia%20-%20Trattate/Silver_Provider%20energia-kdtH-RNm6Aoy0RFYQCnASBbzEPrN-656x492@Corriere-Web-Sezioni.jpg?v=20200713121450');
                 }
             }             
         }       
