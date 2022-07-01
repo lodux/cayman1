@@ -1,6 +1,8 @@
 .spcont {
     padding-top: 90px;
-  
+    @media only screen and (max-width: 1200px) {
+        padding-top: 0;
+    }  
 }
 
 .spbanner {
@@ -15,7 +17,7 @@
         font-weight: 500;
         font-size: 49px;
         color: white;
-
+        
     }
 }
 
@@ -57,8 +59,37 @@
     padding-right: 25px;
 }
 
-.scfa-whatsapp {
+.fa-whatsapp {
     align-items: center;
+    color:#00FF00;
+   font-size: 68px;
+   padding-left: 7%;
+   @media only screen and (max-width: 1000px) {
+    font-size: 50px;
+
+  }
+  @media only screen and (max-width: 600px) {
+    padding-left: 3px;
+
+  }
+}
+
+.fa-phone{
+    font-size: 60px;
+    padding-left: 7%;
+    display: flex;
+    align-items: center;
+    &.fc{
+        color: #4c8b0d;
+    }
+    @media only screen and (max-width: 1000px) {
+        font-size: 50px;
+        
+      }
+    @media only screen and (max-width: 600px) {
+        padding-left: 2%;
+        
+      }
 }
 
 .scpiii{
@@ -85,14 +116,19 @@
 }
 
 .scoption2scelta {
-    width:80%;
+    width: 80%;
     height: 90px;
     border-left: solid 4px #4c8b0d;
-    margin-bottom: 30px;
     padding: 20px 15px 10px 20px;
     cursor: pointer;
     box-shadow: 0 5px 15px #0000001a;
     text-align: center;
+    margin-bottom: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
 }
 
 /* raccoglie telefono e numero verde */
@@ -118,7 +154,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
+    @media only screen and (max-width: 1200px) {
+        font-size: 20px;
+    }  
 
 }
 
@@ -135,7 +173,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
+  
+    @media only screen and (max-width: 1000px) {
+        font-size: 16px;
+    }    
 
 }
 
@@ -159,7 +200,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
+    @media only screen and (max-width: 1200px) {
+        font-size: 20px;
+    }  
 }
 
 .scscelta {
@@ -240,13 +283,33 @@
 
 
 
-.scfa-angle-right {
-    margin-left: 50px;
+.fa-angle-right {
+    margin-left: 30px;
     font-weight: bold;
+    color:#00FF00;
+    font-size: 34px;
+    display: flex;
+    align-items: center;
+    &.n{
+        color: #2cbade;
+    }
+    &.c{
+        color: #2cbade;
+    }
+    &.fc{
+        color: #4c8b0d;
+    }
+    @media only screen and (max-width: 500px) {
+        margin-left: 20px;
+    
+      }
+      @media only screen and (max-width: 420px) {
+       display: none;
+    
+      }
 }
 
 .scavviachat {
-    width: 208px;
     display: flex;
 
 }
@@ -280,6 +343,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    @media only screen and (max-width: 1200px) {
+        font-size: 20px;
+    }  
 }
 
 //fa icon
@@ -385,11 +451,9 @@
 
     .scfasciao {
         width: 30%;
-        font-size: 16px;
-        display: flex;
-        align-items: flex-start;
-        justify-content: flex-start;
-        
+        font-size: 12px;
+       
+        margin-top: 5%;
     }
 
     .scinpora {
@@ -508,6 +572,10 @@
     color: #fff;
     transition: background-color 100ms linear;
 
+    @media only screen and (max-width: 400px) {
+        width: 80%;
+     
+       }
     }
     button:hover{
         background-color: #2cbade;
